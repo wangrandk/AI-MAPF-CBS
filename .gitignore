@@ -1,0 +1,7 @@
+# Exclude all .class files inside searchlient_java/searchclient
+searchclient_java/searchclient/*.class
+
+#Exclude all macOS files
+*.DS_Store
+
+.fake

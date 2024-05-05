@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+
+    //java -jar ../server.jar -l ../levels/SAD1.lvl -c "java  -Xmx4g -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 searchclient.SearchClient -dfs" -g -s 150 -t 180
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "5005"
+        }
+    ]
+}
